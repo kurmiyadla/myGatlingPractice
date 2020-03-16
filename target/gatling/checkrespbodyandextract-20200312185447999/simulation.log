@@ -1,0 +1,5 @@
+ASSERTION	AAEDAAEBAwAAAAAAAHCnQA==
+RUN	Simulations.checkRespBodyAndExtract	checkrespbodyandextract	1584039287999	 	3.3.1
+USER	VideoGames DB	1	START	1584039290435	1584039290435
+REQUEST	1		Get Specific Video Game	1584039290464	1584039293656	KO	jsonPath($.name).find.is(Resident Evil 5), but actually found Resident Evil 4
+USER	VideoGames DB	1	END	1584039290435	1584039293743

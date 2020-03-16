@@ -1,0 +1,10 @@
+{
+  "simulation": "Simulations.addPauseTime",
+  "simulationId": "addpausetime",
+  "start": 1584031514606,
+  "description": "paustime",
+  "scenarios": ["Video Game DB"],
+  "assertions": [
+
+  ]
+}

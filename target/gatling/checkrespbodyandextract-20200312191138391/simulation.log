@@ -1,0 +1,7 @@
+ASSERTION	AAEDAAEBAwAAAAAAAHCnQA==
+RUN	Simulations.checkRespBodyAndExtract	checkrespbodyandextract	1584040298391	 	3.3.1
+USER	VideoGames DB	1	START	1584040300815	1584040300815
+REQUEST	1		Get Specific Video Game	1584040300858	1584040303978	OK	 
+REQUEST	1		Get All Video Games	1584040304050	1584040304057	OK	 
+REQUEST	1		Get Specific game w/ extracted game id	1584040304085	1584040304089	KO	jsonPath($.name).find.is(Gran Turismo 1), but actually found Gran Turismo 3
+USER	VideoGames DB	1	END	1584040300815	1584040304099

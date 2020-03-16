@@ -1,0 +1,10 @@
+{
+  "simulation": "Simulations.codeReuseWithObjects",
+  "simulationId": "codereusewithobjects",
+  "start": 1584043168646,
+  "description": "",
+  "scenarios": ["Get all video Games"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,5 @@
+<testsuite name="Simulations.checkRespBodyAndExtract" tests="1" errors="0" failures="1" time="0">
+<testcase name="Global: max of response time is less than 3000.0" status="false" time="0">
+  <failure type="Global">Actual value: 3280.0</failure>
+</testcase>
+</testsuite>

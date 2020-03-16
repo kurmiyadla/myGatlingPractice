@@ -1,0 +1,18 @@
+{
+  "simulation": "Simulations.checkRespBodyAndExtract",
+  "simulationId": "checkrespbodyandextract",
+  "start": 1584037625093,
+  "description": "",
+  "scenarios": ["VideoGames DB"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [3500.0],
+  "result": true,
+  "message": "Global: max of response time is less than 3500.0",
+  "actualValue": [3208.0]
+}
+  ]
+}

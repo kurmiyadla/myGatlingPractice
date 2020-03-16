@@ -1,0 +1,10 @@
+{
+  "simulation": "Simulations.checkRespBodyAndExtract",
+  "simulationId": "checkrespbodyandextract",
+  "start": 1584036594839,
+  "description": "jsonpath",
+  "scenarios": ["VideoGames DB"],
+  "assertions": [
+
+  ]
+}
