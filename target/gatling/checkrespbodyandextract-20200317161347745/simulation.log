@@ -1,0 +1,7 @@
+ASSERTION	AAEDAAEBAwAAAAAAAHCnQA==
+RUN	Simulations.checkRespBodyAndExtract	checkrespbodyandextract	1584461627745	json	3.3.1
+USER	VideoGames DB	1	START	1584461630266	1584461630266
+REQUEST	1		Get Specific Video Game	1584461630298	1584461633552	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:8080
+REQUEST	1		Get All Video Games	1584461633561	1584461633565	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8080
+ERROR	Get Specific game w/ extracted game id: Failed to build request: No attribute named 'gameId' is defined 	1584461633571
+USER	VideoGames DB	1	END	1584461630266	1584461633582

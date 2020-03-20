@@ -1,0 +1,18 @@
+{
+  "simulation": "TestJenkins.CheckResponseDuplicate",
+  "simulationId": "checkresponseduplicate",
+  "start": 1584653011325,
+  "description": "fd",
+  "scenarios": ["VideoGames DB"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [3000.0],
+  "result": false,
+  "message": "Global: max of response time is less than 3000.0",
+  "actualValue": [3301.0]
+}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "TestJenkins.CheckResponseDuplicate",
+  "simulationId": "checkresponseduplicate",
+  "start": 1584653234468,
+  "description": "hj",
+  "scenarios": ["VideoGames DB"],
+  "assertions": [
+
+  ]
+}

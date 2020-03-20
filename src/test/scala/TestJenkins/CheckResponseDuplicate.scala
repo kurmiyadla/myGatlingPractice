@@ -16,7 +16,7 @@ class CheckResponseDuplicate extends Simulation {
         .get("videogames/1")
         .check(jsonPath(path = "$.name").is(expected = "Resident Evil 4"))
         .check(status.is(200)))
-        .pause(1, 2)
+        .pause(1)
 
         .exec(http(requestName = "Get All Video Games")
           .get("videogames")
@@ -32,7 +32,7 @@ class CheckResponseDuplicate extends Simulation {
           .check(bodyString.saveAs("responsebody"))
           .check(status.not(404), status.not(500)))
       //    .exec{ session => println(session("responsebody").as[String]); session}
-        .pause(1, 2)
+        .pause(1.5)
 
     }
 
