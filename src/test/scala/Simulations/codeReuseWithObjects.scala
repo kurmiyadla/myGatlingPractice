@@ -47,7 +47,6 @@ class codeReuseWithObjects extends BaseSimulation {
 
   setUp(
     scn.inject(
-      rampUsers(10) during (5),
-      .maxDuration(10)
-  ).protocols(httpConf)
+      rampUsers(10) during (5)
+  ).protocols(httpConf))
 }
