@@ -1,0 +1,8 @@
+*.scala linguist-detectable=true
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+*.png linguist-detectable=false
+*.xml linguist-detectable=false
+*.svg linguist-detectable=false
+
