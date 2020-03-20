@@ -32,7 +32,7 @@ class CheckResponseDuplicate extends Simulation {
           .check(bodyString.saveAs("responsebody"))
           .check(status.not(404), status.not(500)))
       //    .exec{ session => println(session("responsebody").as[String]); session}
-        .pause(1.5)
+        .pause(1)
 
     }
 
