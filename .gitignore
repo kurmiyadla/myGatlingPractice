@@ -4,3 +4,5 @@ src/.DS_Store
 src/test/.DS_Store
 target
 target/*
+.idea/
+.idea*
